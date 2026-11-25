@@ -1,0 +1,7 @@
+{"cached": false, "sampling_seconds": 10.196357961999638, "latent_sha256": "a62b5a0669d0fa6a406f74ad1d81e0e89ffa2a2a1db77b8cfe814eb216887423"}
+{"cached": true, "sampling_seconds": 9.795983955000338, "latent_sha256": "a62b5a0669d0fa6a406f74ad1d81e0e89ffa2a2a1db77b8cfe814eb216887423", "hits": 105, "misses": 75, "bytes_cached": 264241152, "offloaded_kv_hits": 105}
+{"cached": true, "sampling_seconds": 9.76535221299946, "latent_sha256": "a62b5a0669d0fa6a406f74ad1d81e0e89ffa2a2a1db77b8cfe814eb216887423", "hits": 105, "misses": 75, "bytes_cached": 264241152, "offloaded_kv_hits": 105}
+{"cached": false, "sampling_seconds": 10.202467535000324, "latent_sha256": "a62b5a0669d0fa6a406f74ad1d81e0e89ffa2a2a1db77b8cfe814eb216887423"}
+{"cached": false, "sampling_seconds": 10.206360053000026, "latent_sha256": "a62b5a0669d0fa6a406f74ad1d81e0e89ffa2a2a1db77b8cfe814eb216887423"}
+{"cached": true, "sampling_seconds": 9.767475192999882, "latent_sha256": "a62b5a0669d0fa6a406f74ad1d81e0e89ffa2a2a1db77b8cfe814eb216887423", "hits": 105, "misses": 75, "bytes_cached": 264241152, "offloaded_kv_hits": 105}
+{"baseline_seconds": 10.202467535000324, "cache_seconds": 9.767475192999882, "sampling_reduction_percent": 4.263599374447091, "frames_shape": [1, 17, 288, 512, 3], "frame_sha256": "79fbc38c4678c06d51b83cc025e9d4549a2943bcc956b74b02032bb2b9a6015a", "bitwise_equal_frames": true}
