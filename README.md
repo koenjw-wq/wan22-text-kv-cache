@@ -54,3 +54,7 @@ The two optional scripts exercise an isolated layer. `benchmark.py` compares byt
 GPT-6.2 Sol (Codex) designed, implemented and tested the experiment. Local Qwen 3.8 27B reviewed the approach. The runner adapts the attention call from [ComfyUI's Wan implementation](https://github.com/Comfy-Org/ComfyUI/blob/20ca544ee0436721d8eb5f544665e490609f72c8/comfy/ldm/wan/model.py). The benchmark code is distributed under [GPL-3.0](LICENSE). Model weights are distributed by their respective upstream projects.
 
 Exact text K/V reuse also appears in [Diffusers](https://huggingface.co/docs/diffusers/main/api/cache#diffusers.TextKVCacheConfig). ComfyUI has a separate [autoregressive Wan cache](https://github.com/Comfy-Org/ComfyUI/blob/master/comfy/ldm/wan/ar_model.py).
+
+## Related Project Prometheus research
+
+[Host-staged BF16 all-reduce on two RTX 3090s](https://github.com/koenjw-wq/rtx3090-host-staged-allreduce) — a separate CUDA communication experiment reporting 23–26% less execution time than the installed NCCL path for large standalone BF16 collectives, reproduced on single-socket and dual-socket systems. End-to-end Qwen improvements remain unmeasured. These results are separate from the Wan denoising benchmark above.
